@@ -4,6 +4,8 @@ A mobile-first one-page site for a tiling or bathroom business with a step-by-st
 Customers scan a QR code, answer a few big-button questions and get a price range. One tap opens
 WhatsApp with the job details and the estimate already typed in. Email and Call sit next to it.
 
+**Live demo:** https://alibek88alarko.github.io/trades-quote-calculator/
+
 **The price never comes from AI.** Every amount is calculated from `pricing.json`, the owner's price list.
 An unknown option or a bad area is refused, not guessed.
 
