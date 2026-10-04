@@ -49,7 +49,7 @@ test("WhatsApp text carries the job details and the estimate", () => {
   const t = whatsappText(rules, base, e, 2);
   assert.ok(t.includes("Job: Floor tiling"));
   assert.ok(t.includes("Area: about 10 m²"));
-  assert.ok(t.includes("Online estimate: £330 to £430"));
+  assert.ok(t.includes("Online estimate: €330 to €430"));
   assert.ok(t.includes("Photos: 2"));
 });
 
