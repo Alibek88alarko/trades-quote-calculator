@@ -1,0 +1,52 @@
+{
+  "_note": "SAMPLE DATA. Replace with your own price list. The calculator never invents a number: every amount comes from this file.",
+  "business": {
+    "name": "Demo Tiling",
+    "whatsapp": "440000000000",
+    "email": "hello@example.com",
+    "phone": "+440000000000",
+    "currency": "£"
+  },
+  "jobTypes": {
+    "floor":      { "label": "Floor tiling",              "perM2": 38 },
+    "wall":       { "label": "Wall tiling",               "perM2": 42 },
+    "bathroom":   { "label": "Bathroom (walls + floor)",  "perM2": 48, "base": 600 },
+    "shower":     { "label": "Shower area / wet room",    "perM2": 52, "base": 250 },
+    "splashback": { "label": "Kitchen splashback",        "perM2": 55 }
+  },
+  "tileSizes": {
+    "mosaic":   { "label": "Mosaic",                     "multiplier": 1.6 },
+    "small":    { "label": "Small (under 30 cm)",        "multiplier": 1.15 },
+    "standard": { "label": "Standard (30 to 60 cm)",     "multiplier": 1.0 },
+    "large":    { "label": "Large format (60 cm and up)", "multiplier": 1.3 }
+  },
+  "removal": {
+    "none":     { "label": "Nothing to remove", "perM2": 0 },
+    "tiles":    { "label": "Remove old tiles",  "perM2": 12 },
+    "stripout": { "label": "Full bathroom strip-out", "fixed": 450 }
+  },
+  "prep": {
+    "levelling": { "label": "Floor levelling",          "perM2": 10 },
+    "boarding":  { "label": "Tile backer boards",        "perM2": 18 },
+    "tanking":   { "label": "Waterproofing (tanking)",   "perM2": 15 }
+  },
+  "tiles": {
+    "customer": { "label": "I'll supply the tiles",      "perM2": 0 },
+    "standard": { "label": "You supply, standard range", "perM2": 25 },
+    "premium":  { "label": "You supply, premium range",  "perM2": 45 },
+    "wastage":  0.10
+  },
+  "zones": {
+    "local": { "label": "Within 10 miles", "travel": 0 },
+    "mid":   { "label": "10 to 25 miles",  "travel": 40 },
+    "far":   { "label": "25 miles or more", "travel": 90 }
+  },
+  "timing": {
+    "asap":     { "label": "As soon as possible", "adjust": 0.10 },
+    "month":    { "label": "Within a month",      "adjust": 0 },
+    "flexible": { "label": "I'm flexible",        "adjust": -0.05 }
+  },
+  "minimumCharge": 250,
+  "rangeSpread": 0.12,
+  "roundTo": 10
+}
